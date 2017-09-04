@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { TaskComponent } from './task/task.component';
+import { TaskComponent } from './tasks/task/task.component';
 import {RouterModule} from "@angular/router";
 import {routing} from "./app.routes";
-import { TaskListComponent } from './task-list/task-list.component';
+import { TaskListComponent } from './tasks/task-list/task-list.component';
 
 @NgModule({
   declarations: [

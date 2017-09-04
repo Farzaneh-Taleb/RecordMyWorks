@@ -1,5 +1,5 @@
 import {RouterModule} from "@angular/router";
-import {TaskComponent} from "./task/task.component";
+import {TaskComponent} from "./tasks/task/task.component";
 /**
  * Created by f.taleb on 9/3/2017.
  */
