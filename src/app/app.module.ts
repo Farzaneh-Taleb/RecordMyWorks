@@ -7,13 +7,17 @@ import { TaskComponent } from './tasks/task/task.component';
 import {RouterModule} from "@angular/router";
 import {routing} from "./app.routes";
 import { TaskListComponent } from './tasks/task-list/task-list.component';
+import { CategoryComponent } from './categories/category/category.component';
+import { WorkComponent } from './works/work/work.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TaskComponent,
-    TaskListComponent
+    TaskListComponent,
+    CategoryComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
