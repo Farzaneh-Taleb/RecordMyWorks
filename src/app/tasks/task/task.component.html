@@ -1,11 +1,25 @@
 <div class="row">
-  <form>
+  <form class="margins">
     <div class="form-group">
+      <label for="taskTitle">Select Category</label>
+      <div class="dropdown">
+        <button class="btn light dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Category
+        </button>
+        <div class="dropdown-menu" aria-labelledby="Category">
+          <a class="dropdown-item" href="#">Our Story</a>
+          <a class="dropdown-item" >Our Team</a>
+          <a class="dropdown-item" >Contact Us</a>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="form-group ">
       <label for="taskTitle">Task title</label>
       <input type="text" class="form-control" id="taskTitle" aria-describedby="emailHelp" placeholder="Task Title">
       <small id="emailHelp" class="form-text text-muted">Enter the task title</small>
     </div>
-
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
